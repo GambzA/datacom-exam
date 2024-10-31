@@ -20,9 +20,10 @@ Please run the following command in terminal:
 ``mvn test``
 
 2. If using intelliJ, I have created a tag called @pr_test, this will run a specific scenario where tag is places, please see the illustration below;
-![datacom-sample.gif](..%2F..%2FUsers%2FRoi%20Mark%20Gamba%2FDownloads%2Fdatacom-sample.gif)
 
-If `@pr_test` is placed abode `Feature` it will run all test scenarios.
+![datacom-sample](https://github.com/user-attachments/assets/775b5bba-a65c-4cfb-95fd-6839fba93eef)
+
+If `@pr_test` is placed above `Feature` it will run all test scenarios.
 
 
 Thank you.
