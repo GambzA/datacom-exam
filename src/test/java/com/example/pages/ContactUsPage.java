@@ -1,6 +1,5 @@
 package com.example.pages;
 
-import com.example.utils.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,9 +24,7 @@ public class ContactUsPage extends BasePage{
         return driver.findElement(PAGE_HEADER).getText();
     }
 
-    // Method to click on the location tab based on inner text
     public void clickLocationTabElement(String location) {
-        // Update the locator dynamically based on the location
         By locationTab = By.xpath("//li[normalize-space(text())='" + location + "']");
         WebElement element = driver.findElement(locationTab);
         element.click();

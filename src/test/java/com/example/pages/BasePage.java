@@ -12,5 +12,4 @@ public class BasePage {
         this.waitUtils = new WaitUtils(driver);
     }
 
-    // Common methods for all pages can be added here
 }

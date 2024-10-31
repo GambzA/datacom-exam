@@ -1,3 +1,4 @@
+@pr_test
 Feature: Check Page Title
 
 Scenario: Verify that the page has loaded
@@ -20,7 +21,6 @@ Scenario: Verify Location Tabs are working
     | Philippines |
     | Singapore   |
 
-    @pr_test
 Scenario: Verify Contact Us Form is submitting
     Given I visit contact us page of Datacom Website
     When I click Contact Us button

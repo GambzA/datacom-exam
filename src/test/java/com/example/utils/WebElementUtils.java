@@ -12,7 +12,7 @@ public class WebElementUtils {
     private final WebDriverWait wait;
 
     public WebElementUtils(WebDriver driver) {
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // You can adjust the timeout as needed
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     public void waitForElementToBeVisible(By locator) {
