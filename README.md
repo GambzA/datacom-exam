@@ -21,7 +21,8 @@ Please run the following command in terminal:
 
 2. If using intelliJ, I have created a tag called @pr_test, this will run a specific scenario where tag is places, please see the illustration below;
 
-![datacom-sample](https://github.com/user-attachments/assets/775b5bba-a65c-4cfb-95fd-6839fba93eef)
+![datacom-sample](https://github.com/user-attachments/assets/3094449f-8335-4947-9558-577e532a27de)
+
 
 If `@pr_test` is placed above `Feature` it will run all test scenarios.
 
